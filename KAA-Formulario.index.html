@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Team - Karen Aitken & Associates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #99ffcc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 500px;
+        }
+        h2 {
+            text-align: center;
+            color: #ccff00;
+        }
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #ffff66;
+            color: #333;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        input[type="submit"]:hover {
+            background-color: #ccff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Join Our Team</h2>
+        <form id="applicationForm" action="https://docs.google.com/forms/d/e/1vQ8yKKU6JjU2drp-_sq3zyHkpq12uuJSQ0Y9M6kxPb8/formResponse" method="post" target="_blank">
+            
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="entry.89407985" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="entry.586206357" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="entry.642746023" required>
+
+            <label for="location">Current Location</label>
+            <input type="text" id="location" name="entry.837511541" required>
+
+            <label for="experience">Years of Experience</label>
+            <input type="number" id="experience" name="entry.1821166243" required>
+
+            <label for="specialization">Specialization</label>
+            <select id="specialization" name="entry.941767977" required>
+                <option value="">Select an option</option>
+                <option value="Residential">Residential</option>
+                <option value="Commercial">Commercial</option>
+                <option value="Civic">Civic</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="software">Software Proficiency</label>
+            <input type="text" id="software" name="entry.1369826513" required>
+
+            <label for="portfolio">Portfolio (PDF only, max 5MB)</label>
+            <input type="file" id="portfolio" accept="application/pdf" required>
+
+            <label for="availability">Preferred Work Mode</label>
+            <select id="availability" name="entry.927182620" required>
+                <option value="">Select an option</option>
+                <option value="Remote">Remote</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="On-site">On-site</option>
+            </select>
+
+            <label for="motivation">Why do you want to work with us?</label>
+            <textarea id="motivation" name="entry.2134382216" rows="4" required></textarea>
+
+            <label for="references">References (Name & Contact)</label>
+            <textarea id="references" name="entry.886371245" rows="3"></textarea>
+
+            <label for="comments">Additional Comments</label>
+            <textarea id="comments" name="entry.952560260" rows="3"></textarea>
+
+            <input type="submit" value="Submit Application">
+        </form>
+
+
